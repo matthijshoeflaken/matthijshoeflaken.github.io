@@ -3,6 +3,7 @@ body{
   padding: 0;
   font-family: sans-serif;
   background-image: url(download.png);
+  background-size: cover;
 }
 .box{
   width: 300px;
