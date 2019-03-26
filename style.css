@@ -2,8 +2,8 @@ body{
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-image: url(rubje.jpeg);
-  background-size: cover;
+  background-image: url(nyc.jpg);
+  background-size:
 }
 .box{
   width: 300px;
@@ -60,11 +60,32 @@ body{
 background-color:  #ffffff;
 }
 
-.ul{
-  text-align: center;
+ol li{
+  font-family: fantasy;
+  font-size: 55px;
+  list-style-type: none;
+  color: red;
+  padding: 10px;
+  margin-right: 35px;
+  opacity: 1.0;
 }
 
-ol li{
-  list-style-type: none;
-  color:black;
+a{
+  color: black;
+  opacity: 1.0;
+}
+
+#Blok{
+  border: 2px solid black;
+  opacity: 0.75;
+  background-color: white;
+  width: 275px;
+  padding: 30px;
+  margin: 130px auto;
+  filter: alpha(opacity=60);
+
+}
+
+#tekst{
+  opacity: 1.5;
 }
